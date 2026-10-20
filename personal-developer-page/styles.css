@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f9f9f9;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 0;
+}
+
+h1, h2 {
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: #0055aa;
+}
+
+a:focus {
+  outline: 3px solid #ffbf47;
+}
+
+.hidden {
+  display: none;
+}
